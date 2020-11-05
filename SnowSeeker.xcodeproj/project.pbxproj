@@ -11,6 +11,11 @@
 		771DFDD72554262900DC36D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771DFDD62554262900DC36D7 /* ContentView.swift */; };
 		771DFDDC2554262C00DC36D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771DFDDB2554262C00DC36D7 /* Preview Assets.xcassets */; };
 		771DFDE525543D0500DC36D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771DFDE425543D0500DC36D7 /* Assets.xcassets */; };
+		771DFDE92554423B00DC36D7 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771DFDE82554423B00DC36D7 /* Resort.swift */; };
+		771DFDEC2554487700DC36D7 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 771DFDEB2554487700DC36D7 /* resorts.json */; };
+		771DFDEF25544D2900DC36D7 /* Bundle+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771DFDEE25544D2900DC36D7 /* Bundle+Decode.swift */; };
+		771DFDF22554500F00DC36D7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771DFDF12554500F00DC36D7 /* WelcomeView.swift */; };
+		771DFDF5255450FF00DC36D7 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771DFDF4255450FF00DC36D7 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		771DFDDB2554262C00DC36D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		771DFDDD2554262C00DC36D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		771DFDE425543D0500DC36D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		771DFDE82554423B00DC36D7 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		771DFDEB2554487700DC36D7 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		771DFDEE25544D2900DC36D7 /* Bundle+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decode.swift"; sourceTree = "<group>"; };
+		771DFDF12554500F00DC36D7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		771DFDF4255450FF00DC36D7 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				771DFDD42554262900DC36D7 /* SnowSeekerApp.swift */,
 				771DFDD62554262900DC36D7 /* ContentView.swift */,
+				771DFDF12554500F00DC36D7 /* WelcomeView.swift */,
+				771DFDE82554423B00DC36D7 /* Resort.swift */,
+				771DFDEE25544D2900DC36D7 /* Bundle+Decode.swift */,
+				771DFDF4255450FF00DC36D7 /* View+Extension.swift */,
+				771DFDEB2554487700DC36D7 /* resorts.json */,
 				771DFDE425543D0500DC36D7 /* Assets.xcassets */,
 				771DFDDD2554262C00DC36D7 /* Info.plist */,
 				771DFDDA2554262C00DC36D7 /* Preview Content */,
@@ -126,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771DFDEC2554487700DC36D7 /* resorts.json in Resources */,
 				771DFDE525543D0500DC36D7 /* Assets.xcassets in Resources */,
 				771DFDDC2554262C00DC36D7 /* Preview Assets.xcassets in Resources */,
 			);
@@ -138,8 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771DFDF22554500F00DC36D7 /* WelcomeView.swift in Sources */,
 				771DFDD72554262900DC36D7 /* ContentView.swift in Sources */,
+				771DFDE92554423B00DC36D7 /* Resort.swift in Sources */,
 				771DFDD52554262900DC36D7 /* SnowSeekerApp.swift in Sources */,
+				771DFDF5255450FF00DC36D7 /* View+Extension.swift in Sources */,
+				771DFDEF25544D2900DC36D7 /* Bundle+Decode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +292,7 @@
 				DEVELOPMENT_TEAM = PFT2629W4Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SnowSeeker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +314,7 @@
 				DEVELOPMENT_TEAM = PFT2629W4Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SnowSeeker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
